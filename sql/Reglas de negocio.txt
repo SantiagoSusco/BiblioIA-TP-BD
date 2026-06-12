@@ -1,0 +1,16 @@
+﻿RN1: Límite de Renovaciones
+* Regla: Un préstamo activo solo puede renovarse una única vez (por un plazo de 7 o 14 días adicionales). Una vez agotada esa renovación, el socio está obligado a devolver el ejemplar físicamente para que otros puedan usarlo.
+RN2: Escala de Gravedad en las Sanciones
+* Regla: La tipificación de la sanción dependerá de los días de retraso en la devolución:
+   * LEVE: De 1 a 5 días de mora (suspensión por los mismos días de retraso).
+   * MODERADA: De 6 a 15 días de mora (suspensión por el doble de días).
+   * GRAVE: Más de 15 días de mora (suspensión por un mes mínimo).
+RN3: Baja Automática por Reincidencia
+* Regla: Si un socio acumula un historial de 3 sanciones GRAVES (o 5 sanciones de cualquier tipo) en un mismo año calendario, su estado cambia automáticamente de 'SUSPENDIDO' a 'BAJA', perdiendo sus privilegios en la biblioteca de forma permanente.
+RN4: Restricción Operativa para Suspendidos
+* Regla: Un socio con estado 'SUSPENDIDO' pierde el beneficio de renovar los préstamos que actualmente tenga en estado 'ACTIVO'. Deberá devolverlos en la fecha de vencimiento original sin excepciones.
+RN5: Un socio no puede tener más de 3 préstamos activos simultáneos.
+RN6: Un socio con sanciones activas no puede realizar nuevos préstamos.
+RN7: Al devolver un ejemplar fuera de término, se genera automáticamente una sanción.
+RN8: El stock_disponible de LIBRO se actualiza automáticamente con cada préstamo o devolución.
+RN9: Un ejemplar dado de baja (estado_fisico = 'BAJA') no puede prestarse.
