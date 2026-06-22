@@ -11,8 +11,8 @@ Este proyecto integra una base de datos relacional MySQL con un Agente de Inteli
 * [Telli Benjamin]
 
 ## 🛠️ Tecnologías Utilizadas
-* **Base de Datos:** MySQL (Aiven / Local)
-* **Lenguaje:** Python 3.10+
+* **Base de Datos:** MySQL (Aiven)
+* **Lenguaje:** Python 3.13.5
 * **Inteligencia Artificial:** Modelo Llama 3 (vía API de Groq)
 * **Entorno:** Jupyter Notebook
 * **Librerías:** pandas, sqlalchemy, mysql-connector-python, openai
