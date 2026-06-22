@@ -29,3 +29,26 @@ cd BiblioIA-TP-BD
 
 ### 2. Instalar dependencias
 pip install mysql-connector-python pandas openai python-dotenv jupyter sqlalchemy
+
+### 3. Configurar Variables de Entorno
+Crea un archivo llamado .env en la raíz del proyecto. (Este archivo no se sube a GitHub por seguridad). Pega el siguiente formato y reemplaza con tus credenciales:
+
+
+# Conexión a la Base de Datos MySQL
+DB_HOST=tu_host_aqui
+DB_PORT=tu_puerto
+DB_NAME=TP_FINAL
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña
+
+# API Key para el Agente de IA (Groq)
+LLM_API_KEY=gsk_tu_clave_de_groq_aqui
+
+### 💡 Ejemplos de Uso del Agente
+Una vez ejecutado el sistema, puedes hacerle preguntas como:
+
+"¿Cuáles son los 5 libros más prestados?"
+
+"¿Qué socios tienen actualmente el estado suspendido?"
+
+"¿Cuántos ejemplares de Harry Potter tenemos disponibles?"
